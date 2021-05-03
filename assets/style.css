@@ -1,0 +1,63 @@
+* {
+  font-family: 'Roboto Mono';
+}
+body {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.header .title {
+  font-size: 24px;
+  font-weight: normal;
+}
+.header {
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.operation-box {
+  margin-bottom: 40px;
+}
+
+.result-box .result {
+  font-size: 24px;
+}
+
+.main .operation-box .operations {
+  color: #545454;
+  font-size: 22px;
+}
+.number,
+.option {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 24px;
+}
+.number {
+  background-color: #c4c4c4;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.buttons-operations .operation {
+  font-weight: 600;
+  font-size: 24px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.buttons-operations {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  float: right;
+  top: -100px;
+}
