@@ -49,6 +49,7 @@ body {
   align-items: flex-end;
   justify-content: space-around;
   padding: 10px;
+  /* break words */
   word-wrap: break-word;
   word-break: break-all;
 }
